@@ -7,24 +7,29 @@ Homework for Garcia Ch. 2, projectile motion
 
 <div>
 
+*   [GUI tutorial (in class)](#1)
 *   [Problem 1 (in class)](#2)
-*   [Problem 2 (in class)](#3)
+*   [Problem 2 (homework)](#3)
 *   [Problem 3 (homework)](#4)
 *   [Problem 4 (homework)](#5)
 
 </div>
 
+## GUI Tutorial (in class)<a name="1"></a>
+
+Follow the GUI tutorial to create a 4-function calculator GUI!
+
 ## Problem 1 (in class)<a name="2"></a>
 
-Create a MATLAB program that computes the trajectory of a projectile under the influence of gravity alone using the Euler Method.
+Create a MATLAB program that computes the trajectory of a projectile under the influence of gravity alone using the Euler, Euler-Cromer, and Midpoint methods.
 
  * Establish the basic structure of the program, including program initializations (initial conditions and other parameters), time-step loop (with acceleration calculation and position/velocity updates), and a plot of the results from the computation.
  * Calculate the acceleration, along with the updates for position and velocity based on the Euler method.  Also calculate the analytical solution for comparison.
  * Test the code for the initial conditions and parameters of Figure 2.2 (*x*<sub>0</sub> = *y*<sub>0</sub> = 0, *v*<sub>0</sub> = 15 m/s, *θ*<sub>0</sub>=45°, *τ* = 0.1 s).
 
-## Problem 2 (in class)<a name="3"></a>
+## Problem 2 (homework)<a name="3"></a>
 
-Add options for updating the solution using the Euler-Cromer and Midpoint methods.  Have the user select (or input) which method he/she would like to use.
+Wrap your program in a GUI! The GUI can be as creative as you'd like, but should prompt the user to enter initial conditions and choose a calculation method. 
 
  * Test the code for the different methods using the same initial conditions and parameters.
  * What conclusions can be drawn about the performance of the different methods? Write your answer in a commented paragraph at the end of your program.
