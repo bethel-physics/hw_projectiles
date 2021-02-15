@@ -17,7 +17,7 @@ Homework for Garcia Ch. 2, projectile motion
 
 ## GUI Tutorial (in class)<a name="1"></a>
 
-Follow the GUI tutorial to create a 4-function calculator GUI!
+Follow the GUI tutorial to create a 4-function calculator GUI! Add your calculator GUI files to github. 
 
 ## Problem 1 (in class)<a name="2"></a>
 
