@@ -33,12 +33,12 @@ Test the code for the initial conditions and parameters of Garcia Figure 2.2 (*x
 
 ## Problem 2 (homework)<a name="3"></a>
 
-Wrap your program in a GUI! The GUI can be as creative as you'd like, but should prompt the user to enter initial conditions and choose a calculation method. 
+Wrap your program in a GUI! The GUI can be as creative as you'd like, but should prompt the user to enter initial conditions and choose a calculation method. A basic functional GUI is shown below.
 
  * Test the code for the different methods using the same initial conditions and parameters.
  * What conclusions can be drawn about the performance of the different methods? Write your answer in a commented paragraph at the end of `projectiles.m`.
  
-![Problem 2](examplegui.jpg)
+<img src="https://github.com/bethel-physics/hw_projectiles/blob/master/examplegui.JPG" width=600 />
 
 ## Problem 3 (homework)<a name="4"></a>
 
@@ -56,7 +56,7 @@ Display your results as a figure with two subplots: one subplot displays the pro
 
 ## Problem 4 (homework)<a name="5"></a>
 
-The drag coefficient for a baseball actually varies with velocity.  Modify your program to account for a drag coefficient that varies with velocity according to the table shown.  Use linear interpolation to determine the drag coefficient for values in the table.  Test your conditions for the same initial conditions and parameters as in Problem #1.
+The drag coefficient for a baseball actually varies with velocity.  Modify your program to account for a drag coefficient that varies with velocity according to the table shown.  Use linear interpolation to determine the drag coefficient for speeds between values in the table.  Test your conditions for the same initial conditions and parameters as in Problem #1.
 
 Display your results as a figure with two subplots: one subplot displays the projectile trajectory (*x* vs. *y*); the other subplot displays the projectile velocity magnitude versus time.
 
