@@ -27,8 +27,11 @@ Complete the function in `projectiles.m` to compute the trajectory of a projecti
  * Calculate Euler, Euler-Cromer, and Midpoint method updates for position and velocity at each time step, depending on which method was given as a function argument.
  * Store horizontal and vertical positions for plotting
  * Break the time step loop when the particle hits the ground
+ * **Plot** the trajectory of the projectile (*y* vs *x* position) for the analytical solution and the chosen numerical solution on the same graph in different styles.
  
 Test the code for the initial conditions and parameters of Garcia Figure 2.2 (*x*<sub>0</sub> = *y*<sub>0</sub> = 0, *v*<sub>0</sub> = 15 m/s, *θ*<sub>0</sub>=45°, *τ* = 0.1 s, no drag). The final function input parameter can be used to control the numerical method; such as 1 = Euler, 2 = Euler-Cromer, 3 = Midpoint.
+
+Execute this command in the Command Window to test using Method 1 (whatever that is for you):
 
 `>> projectiles(0, 15, 45, 0, 0.1, 1)`
 
