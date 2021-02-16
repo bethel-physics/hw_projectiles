@@ -29,6 +29,7 @@ Complete the function in `projectiles.m` to compute the trajectory of a projecti
  * Break the time step loop when the particle hits the ground
  
 Test the code for the initial conditions and parameters of Garcia Figure 2.2 (*x*<sub>0</sub> = *y*<sub>0</sub> = 0, *v*<sub>0</sub> = 15 m/s, *θ*<sub>0</sub>=45°, *τ* = 0.1 s, no drag). The final function input parameter can be used to control the numerical method; such as 1 = Euler, 2 = Euler-Cromer, 3 = Midpoint.
+
 `>> projectiles(0, 15, 45, 0, 0.1, 1)`
 
 ## Problem 2 (homework)<a name="3"></a>
